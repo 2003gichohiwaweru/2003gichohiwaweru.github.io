@@ -14,10 +14,13 @@ h3 {
 .home-section {
     padding-left: 12px;
     background-color: blanchedalmond;
+    padding-top: 70px;
     margin-top: 100px;
     animation: colorChange 3s infinite alternate; 
 }
-
+#about-us {
+    padding-top: 50px;
+}
 @keyframes colorChange {
     0% {
         background-color: rgb(223, 207, 183); 
