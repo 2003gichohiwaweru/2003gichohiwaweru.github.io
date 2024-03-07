@@ -10,10 +10,28 @@ h3 {
 }
 
 
+
 .home-section {
     padding-left: 12px;
-   background-color: blanchedalmond;
+    background-color: blanchedalmond;
+    animation: colorChange 3s infinite alternate; /* Apply animation */
 }
+
+@keyframes colorChange {
+    0% {
+        background-color: blanchedalmond; /* Starting color */
+    }
+    25% {
+        background-color: lightblue; /* Ending color */
+    }
+    50% {
+        background-color: rgb(177, 60, 128); /* Ending color */
+    }
+    100% {
+        background-color: rgb(116, 185, 26); /* Ending color */
+    }
+}
+
 .footer {
     background-color: rgb(174, 162, 238);
     text-decoration-color: blue;
