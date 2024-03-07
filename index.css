@@ -2,9 +2,28 @@
 h3 {
     font-size: var(--font-size-medium);
 }
+.navbar {
+    color: rgb(53, 42, 42);
+}
 
-
-
+.Home {
+    padding-left: 12px;
+   background-color: blanchedalmond;
+}
+.Card {
+    padding-top: 20px;
+    margin-left: 20px;
+    width: 80rem; /* Set the desired width */
+    margin: 0 auto; /* Center the card horizontally */
+    display: block;
+}
+.footer {
+    background-color: rgb(31, 37, 37);
+    text-decoration-color: blue;
+}
+.text-reset {
+    color: blue;
+}
 p {
     margin: var(--gutter-small-1) 0;
 }
@@ -295,10 +314,7 @@ body:not(.user-is-tabbing) a:focus {
 .contact__info {
     max-width: var(--container-medium-width);
 }
-.footer {
-    text-align: center;
-    padding: var(--gutter-medium) 0 var(--gutter-normal);
-}
+
 .footer__social-links {
     display: flex;
     justify-content: center;
