@@ -2,11 +2,11 @@
 h3 {
     font-size: var(--font-size-medium);
 }
+
 .navbar {
-    color: rgb(53, 42, 42);
     padding: 12px;
     margin: 4px;
-    background-color: rgb(174, 164, 238);
+    background: linear-gradient(to right, rgb(205, 200, 236), rgb(142, 140, 197), rgb(235, 192, 217), rgb(255, 155, 123));
 }
 
 
@@ -20,16 +20,16 @@ h3 {
 
 @keyframes colorChange {
     0% {
-        background-color: blanchedalmond; 
+        background-color: rgb(223, 207, 183); 
     }
     25% {
-        background-color: lightblue; /* Ending color */
+        background-color: rgb(185, 213, 223); /* Ending color */
     }
     50% {
-        background-color: rgb(177, 60, 128); /* Ending color */
+        background-color: rgb(235, 192, 217); /* Ending color */
     }
     100% {
-        background-color: rgb(116, 185, 26); /* Ending color */
+        background-color: rgb(224, 236, 207); /* Ending color */
     }
 }
 
