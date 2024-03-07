@@ -6,21 +6,16 @@ h3 {
     color: rgb(53, 42, 42);
     padding: 12px;
     margin: 4px;
+    background-color: rgb(174, 164, 238);
 }
 
 .Home {
     padding-left: 12px;
    background-color: blanchedalmond;
 }
-.Card {
-    padding-top: 20px;
-    margin-left: 20px;
-    width: 80rem; /* Set the desired width */
-    margin: 0 auto; /* Center the card horizontally */
-    display: block;
-}
+
 .footer {
-    background-color: rgb(31, 37, 37);
+    background-color: rgb(174, 162, 238);
     text-decoration-color: blue;
 }
 .text-reset {
