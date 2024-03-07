@@ -51,6 +51,26 @@ h3 {
     margin-top: 10px;
 }
 
+.mission-vision-container {
+    background-color: #f1ebeb; /* Optional background color for the container */
+    padding: 40px 0;
+}
+
+.mission-vision {
+    
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 800px; /* Optional: adjust as needed */
+}
+
+.mission,
+.vision {
+    width: 100%; /* Adjust the width of mission and vision sections */
+}
+.container {
+    padding: 30px;
+}
+
 .footer {
     background-color: rgb(174, 162, 238);
     text-decoration-color: blue;
