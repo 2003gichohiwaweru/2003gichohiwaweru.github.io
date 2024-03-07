@@ -60,14 +60,14 @@
                 <img src="img/tech.png" alt="Portfolio Website" class="img-fluid rounded-circle" style="width: 150px;">
             </div>
             <div class="col-md-8">
-                <h2 class="mb-3">Portfolio Website</h2>
+                <h2 class="mb-3">Welcome to Web Tech Solutions</h2>
                 <p class="mb-4">"Empowering businesses and individuals through innovative software solutions. 
                 We are dedicated to delivering exceptional value to our clients by leveraging cutting-edge technologies,
                 fostering creativity, and providing unparalleled customer support. Our mission is to drive digital transformation, streamline processes, 
                 and enhance productivity,enabling our clients to thrive in a rapidly evolving technological landscape."
 
                 <h4>
-                  Vision
+                  
                 </h4>
                 Our vision is to be recognized as the foremost innovators in the digital realm,
                 delivering unparalleled value and fostering sustainable growth for our clients and partners. 
@@ -94,7 +94,7 @@
               </p>
           </div>
           <div class="col-md-6 mb-4">
-              <img src="image2.jpg" alt="Image 2" class="img-fluid">
+              <img src="img/app.jpg" alt="Image 2" class="img-fluid">
               <p>
                   Some small description about Image 2.
                   <a href="#" class="read-more">Read more</a>
@@ -105,14 +105,8 @@
 </section>
 
 
-<!-- Other sections of your website -->
 
-<section id="about-us">
-    <div class="container">
-        <h2>About Us</h2>
-        <p>This is the about us section of your website.</p>
-    </div>
-</section>
+
 
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
 
@@ -144,20 +138,11 @@
     </section>
   </main>
 
-  <section class="contact" id="contact">
-    <div class="row">
-      <h2>Get in Touch</h2>
-      <div class="contact__info">
-        <p>
-          Are you in search for an outstanding planner, organizer with
-          oversight skills and staff directing?😊 The quickest way to 
-          reach out tome is via an email. Feel free to contact me and 
-          I'll respond quickly to your request.
-        </p>
-        <a href="mailto:david.oyugi@student.moringaschool.com" class="btn">david.oyugi@student.moringaschool.com</a>
-      </div>
-    </div>
-  </section>
+ 
+
+
+
+
 
   <!-- Footer -->
 <footer class="text-center text-lg-start bg-body-tertiary text-muted footer">
@@ -285,6 +270,17 @@
   <!-- Copyright -->
 </footer>
 <!-- Footer -->
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $(".read-more").click(function(e){
+            e.preventDefault();
+            $(this).parent().toggleClass("expanded");
+        });
+    });
+</script>
+
 </body>
 
 </html>

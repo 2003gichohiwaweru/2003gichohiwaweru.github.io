@@ -32,6 +32,21 @@ h3 {
         background-color: rgb(224, 236, 207); /* Ending color */
     }
 }
+.read-more {
+    display: block;
+    margin-top: 10px;
+    color: blue;
+}
+.read-more.expanded {
+    display: none;
+}
+.read-more.expanded + .full-description {
+    display: block;
+}
+.full-description {
+    display: none;
+    margin-top: 10px;
+}
 
 .footer {
     background-color: rgb(174, 162, 238);
