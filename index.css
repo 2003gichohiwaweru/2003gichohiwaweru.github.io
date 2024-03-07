@@ -67,6 +67,10 @@ h3 {
 .vision {
     width: 100%; /* Adjust the width of mission and vision sections */
 }
+.mission {
+    
+    margin-bottom: 30px; /* Increase the distance between mission and vision */
+}
 .container {
     padding: 30px;
 }
