@@ -89,6 +89,49 @@ h3 {
 
 /* styles.css */
 
+
+/* Styles for the Projects Section */
+.project-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.project {
+    margin-bottom: 40px; /* Increased margin for space between containers */
+    text-align: center; /* Center align the content */
+}
+
+.project-img {
+    width: 90%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.project-description {
+    margin-bottom: 10px; /* Add margin between description and button */
+    overflow: hidden; /* Hide overflow */
+    white-space: nowrap; /* Prevent wrapping */
+    text-overflow: ellipsis; /* Add ellipsis for truncated text */
+}
+
+.more-content {
+    display: none; /* Initially hide additional content */
+}
+
+.read-more-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.read-more-btn:hover {
+    background-color: #0056b3;
+}
+
+
 /* Testimonials Section */
 .testimonials-container {
     display: flex;

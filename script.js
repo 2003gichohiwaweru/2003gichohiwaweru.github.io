@@ -51,3 +51,20 @@ $(document).ready(function () {
         }
     );
 });
+// JavaScript for the Projects Section
+
+$(document).ready(function() {
+    // Show full project description when image is clicked
+   
+    // Show full project list when "Read More" button is clicked
+    $('#showMoreBtn').click(function () {
+        $('.project').fadeIn();
+        $(this).hide();
+    });
+
+    // Toggle full project description when "Read More" button is clicked
+    $('.read-more-btn').click(function() {
+        $(this).prev('.project-description').find('.more-content').toggle(); // Toggle visibility of additional content
+    });
+});
+
