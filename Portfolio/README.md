@@ -17,7 +17,8 @@ Systems Designing
 
 <h2 align="center">Live Preview</h2>
 
-  👉👉Click the link for a live preview of my portfolio.🔭 [Portfolio site](https://2003gichohiwaweru.github.io/)
+  👉👉Click the link for a live preview of my portfolio.🔭 [Portfolio site](https://2003gichohiwaweru.github.io/Portfolio
+  )
 
 <h2>Copyright & License</h2>
 &copy webTechSolution, 2021
