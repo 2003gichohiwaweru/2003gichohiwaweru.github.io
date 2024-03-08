@@ -87,21 +87,56 @@ h3 {
     padding: 30px;
 }
 
+/* styles.css */
+
+/* Testimonials Section */
 .testimonials-container {
-    overflow-x: auto;
-    white-space: nowrap;
-    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .testimonial {
-    display: inline-block;
     width: 300px;
+    margin-bottom: 30px;
     padding: 20px;
-    margin-right: 20px;
-    background-color: #f9f9f9;
+    text-align: center;
     border-radius: 10px;
-    vertical-align: top;
+    transition: transform 0.3s ease;
 }
+
+.testimonial:hover {
+    transform: scale(1.1);
+}
+
+.testimonial img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.testimonial h3 {
+    margin-top: 15px;
+}
+
+.review {
+    font-weight: bold;
+    margin-top: 10px;
+    color: #333;
+}
+
+.comment {
+    margin-top: 10px;
+    color: #555;
+    font-size: 14px;
+    max-height: 100px;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+}
+
+.comment.expanded {
+    max-height: 200px; /* Adjust as needed */
+}
+
 
 
 .pricing {
