@@ -66,5 +66,17 @@ $(document).ready(function() {
     $('.read-more-btn').click(function() {
         $(this).prev('.project-description').find('.more-content').toggle(); // Toggle visibility of additional content
     });
+    
 });
-
+// Function to handle image slider (basic implementation)
+function slideImages(container) {
+    let currentIdx = 0;
+    container.addEventListener('click', (event) => {
+      if (event.target.classList.contains('project-img')) {
+        projectImgs.forEach((img, index) => img.classList.remove('active'));
+        event.target.classList.add('active');
+        currentIdx = index;
+      }
+    });
+  }
+  
