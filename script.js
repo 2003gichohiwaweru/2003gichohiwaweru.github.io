@@ -45,8 +45,8 @@ $(document).ready(function () {
         },
         function () {
             $(this).css({
-                backgroundColor: "", // Revert background color
-                color: "" // Revert text color
+                backgroundColor: "#FF7F7F", // Revert background color
+                color: "#FF2400" // Revert text color
             });
         }
     );
