@@ -198,6 +198,59 @@ h3 {
     margin-top: 30px;
 }
 
+
+/* Styling for Downloads Container */
+.downloads-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 40px;
+    background-color: #f4f4f4;
+
+}
+
+.downloads-list {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.downloads-list h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.downloads-list ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.downloads-list ul li {
+    margin-bottom: 10px;
+}
+
+.downloads-list ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Styling for Contacts */
+.contacts {
+    flex: 1;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+}
+
+.contacts h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.contact-item {
+    margin-bottom: 10px;
+}
 .footer {
     background-color: rgb(174, 162, 238);
     text-decoration-color: blue;
