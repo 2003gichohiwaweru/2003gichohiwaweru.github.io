@@ -49,7 +49,7 @@ h3 {
 .read-more {
     display: block;
     margin-top: 10px;
-    color: blue;
+    color: rgb(98, 98, 161);
 }
 .read-more.expanded {
     display: none;
@@ -93,6 +93,8 @@ h3 {
 .testimonials-container {
     display: flex;
     flex-wrap: wrap;
+    padding-top: 50px;
+    margin-top: 80px;
     justify-content: space-around;
 }
 
@@ -121,7 +123,7 @@ h3 {
 .review {
     font-weight: bold;
     margin-top: 10px;
-    color: #333;
+    color: #4d2121;
 }
 
 .comment {
