@@ -212,6 +212,7 @@ h3 {
 .downloads-list {
     flex: 1;
     margin-right: 20px;
+    margin-left: 40px;
 }
 
 .downloads-list h2 {
